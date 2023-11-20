@@ -9,7 +9,7 @@ Just download the as a .zip and place it where you want, unpack it and opening t
 ⚠**WARNING**: In order to avoid the dependencies breaking any of your system packages, it is advised to work within a Virtual environment instance of your preference. 
 
 ```bash
-pip install - r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Usage
