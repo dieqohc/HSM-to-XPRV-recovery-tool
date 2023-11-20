@@ -40,3 +40,8 @@ to discuss what you would like to change.
 The license for this project is GNU GPLv3
 
 To learn more about the permissions, conditions and limitations of this license go here: [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/)
+
+## Thank yous
+
+1. Thanks to the core-lightning community and developers.
+2. Thanks to [Baan Twentyfifth](https://community.corelightning.org/u/64d0a6f3) for the idea and his [BIP32 implemention](https://github.com/baam25simo/bip32_4dev).
