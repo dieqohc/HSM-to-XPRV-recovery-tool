@@ -6,8 +6,12 @@
 from bip32_4dev.bip32.bip32 import b58encode, b58decode, BIP32Node
 from hkdf.hkdf import hkdf
 
-with open("./hsm_secret", "rb") as ff: #modify the route as you please to where your hsm_secret is located.
-    code = ff.read()
+try:
+    with open("./hsm_secret", "rb") as ff: #modify the route as you please to where your hsm_secret is located.
+        code = ff.read()
+except (FileNotFoundError, NameError):
+    print('hsm_secret file not found, please move the file to this directory\nor edit the recovery.py to the directory where the file is located.\n')
+    exit()
 
 seed=hkdf(bytes(0), code, b"bip32 seed", len(code))
 bip32seed = BIP32Node(m=seed, tree="m", net="mainnet")
