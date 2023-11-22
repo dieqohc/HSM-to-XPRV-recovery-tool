@@ -3,3 +3,4 @@ hsm_secret
 hsm_secret.bak
 hkdf/__pycache__/*
 __pycache__/*
+MyEnv/*
