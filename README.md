@@ -49,5 +49,5 @@ To learn more about the permissions, conditions and limitations of this license 
 ## Donations
 
 If you have found this tool valuable please consider making a small lightning donation to **diego@lnaddress.me** or scanning the QR below.
-![QR](./Misc/Images/QR.png)
+![QR](./Misc/Images/QR.png =500x600)
 
