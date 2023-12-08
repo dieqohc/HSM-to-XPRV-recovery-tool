@@ -4,8 +4,10 @@ This is a tool created in order to help those in the hard situation of having fu
 
 ## Installation
 
-1. Just download the repository as a .zip and place it where you want, extract the contents and open the folder with the extracted contents. 
-2. Run the following command to install the dependencies:
+> If you require a more detailed guide with step by step instructions click [here](./Extended%20Guide.md)
+
+1. Download the repository as a .zip and place it where you want, extract the contents and open the folder with the extracted contents. 
+2. Run the following command to install the dependencies:s
 
 ⚠**WARNING**: In order to avoid the dependencies breaking any of your system packages, it is advised to work within a Virtual environment instance of your preference.' 
 
@@ -48,6 +50,6 @@ To learn more about the permissions, conditions and limitations of this license 
 
 ## Donations
 
-If you have found this tool valuable please consider making a small lightning donation to **diego@lnaddress.me** or scanning the QR below.
+If you have found this tool valuable please consider making a lightning donation to **[diego@lnaddress.me](https://lnaddress.me/.well-known/lnurlp/diego)** or scanning the QR below.
 
 <img src="./Misc/Images/QR.png" width="333" height="400">

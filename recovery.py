@@ -1,6 +1,5 @@
 # This is small tool with the aim to derive the private key to move any funds on-chain parting from an hsm_secret file.
-
-# Thanks to Baam Twentyfifth -> https://community.corelightning.org/u/64d0a6f3
+# This file does NOT support the recovery of funds already on lightning channels.
 
 
 from bip32_4dev.bip32.bip32 import b58encode, b58decode, BIP32Node
